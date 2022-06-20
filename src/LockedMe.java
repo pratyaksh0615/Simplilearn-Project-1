@@ -78,6 +78,13 @@ class mainmenu
 		 		System.out.println("Bye-Bye!");
 		 		System.exit(0);
 		 	}
+		 	
+		 	default:
+		 	{
+		 		System.out.println("Invalid Input, Please enter a Valid Value.");
+		 		System.out.println("                                          ");
+		 		mm.mmenu();
+		 	}
 		 
 		}
 	}
@@ -288,6 +295,13 @@ class fileoperations
 			{
 				System.out.println("Bye-Bye!");
 				System.exit(0);
+			}
+			
+			default: 
+			{
+				System.out.println("Invalid Input, Please enter a Valid Value.");
+		 		System.out.println("                                          ");
+		 		mm.mmenu();
 			}
 		}
 	}
